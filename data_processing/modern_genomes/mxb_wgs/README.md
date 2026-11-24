@@ -1,5 +1,3 @@
-# data_processing/modern_genomes/mxb_wgs
-
 Scripts used for alignment and variant calling of the 50 MXB whole genomes (GRCh38), run on the Brown University Oscar cluster (SLURM). Paths at the top of each script are placeholders.
 
 | Step | Script | Run as |
