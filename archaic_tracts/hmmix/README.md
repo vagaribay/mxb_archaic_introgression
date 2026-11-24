@@ -4,4 +4,4 @@ hmmix helpfiles for GRCh38 (callability mask, mutation rates, 1KGP + HGDP outgro
 
 For each individual: create_ingroup, train a haploid model, decode the autosomes, then decode again with the archaic genomes (`-admixpop`) to annotate each tract.
 
-Input VCFs: TODO (MXB-WGS / MXB-imputed).
+Input VCFs: both MXB-WGS / MXB-imputed.
