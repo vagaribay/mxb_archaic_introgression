@@ -1,8 +1,6 @@
 # data_processing/modern_genomes/mxb_wgs
 
-Alignment and variant calling for the 50 MXB whole genomes (GRCh38).
-
-Edit `config.sh` with your paths, then submit every script from this folder.
+Scripts used for alignment and variant calling of the 50 MXB whole genomes (GRCh38), run on the Brown University Oscar cluster (SLURM). Paths at the top of each script are placeholders.
 
 | Step | Script | Run as |
 |---|---|---|
@@ -21,11 +19,10 @@ Edit `config.sh` with your paths, then submit every script from this folder.
 
 Final output: `indigenous_mxb_filtered_SNPs_GRCh38_autosomes.vcf.gz`
 
-## Software
+## Reference genome
 
-TODO: versions for bwa, samtools, picard, GATK (4.3.0.0 for BQSR), FastQC (0.12.1), MultiQC, bcftools, pyega3, DISCVRSeq (1.3.84).
+GRCh38.p13 (GCF_000001405.39), prepared by Viridiana Villa-Islas. Only autosomes and sex chromosomes were kept, and the mitochondrial genome was replaced with the rCRS.
 
 ## Data
 
-FASTQ files are available under controlled access from EGA (TODO: EGAD accession).
-
+The genotype for the 5,833 Mexican Biobank individuals are available at the European Genome-phenome Archive (EGA) through a Data Access Agreement with the Data Access Committee (EGA accession number for study: EGAS00001005797; datasets: EGAD00010002361 (Mexican_Biobank_Genotypes) and EGAD00001008354 (Mexican Biobank 50 Genomes)).
